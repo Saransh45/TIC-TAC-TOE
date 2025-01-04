@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('https://coolthingstobuy247.com/wp-content/uploads/2018/11/large-wooden-tic-tac-toe-board-game.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flexbox;
+  color: rgb(11, 4, 3);
+
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); 
+  grid-gap: 5px; 
+  margin: 20px auto;
+  width: max-content;
+  background-color: burlywood;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(117, 92, 60, 0.53);
+}
+
+.reset {
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.reset:hover {
+  color: blue;
+}
+
+h2 {
+  color: lightgoldenrodyellow;
+}
